@@ -61,6 +61,17 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
               ),
             ),
+            const SizedBox(
+              height: 30,
+            ),
+            Container(
+              height: 500,
+              width: double.infinity,
+              decoration: const BoxDecoration(
+                borderRadius: BorderRadius.zero,
+                color: Colors.white,
+              ),
+            ),
           ],
         ),
       ),
